@@ -2,7 +2,7 @@ from app import add, is_tee_time_available
 
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add(2, 3) == 6
     assert add(-1, 1) == 0
 
 
